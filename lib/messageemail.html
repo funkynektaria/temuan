@@ -1,0 +1,18 @@
+<?php
+function emailMessage($nama, $bib, $rpcplace, $rpctanggal, $rpcwaktu)
+{
+	"Dear ". $pesertaNama[0]['fullNAME'] ."," . 
+								"<br /><br />" . 
+								"Terima kasih telah mendaftarkan diri di Teh Javana Candi ke Candi 10K <br /><br /> " .
+								"nomor BIB anda adalah: " . str_pad($lastBIB[0]['numberBIB'], 4, "0", STR_PAD_LEFT) . "<br /><br /> " .
+								"Anda mendaftarkan untuk pengambilan RPC berlokasi di " . $pesertaNama[0]['rpcPLACE'] . " yang akan di selenggarakan di <br /><br />" .
+								"lokasi : " . $rpcLoc . " <br />" .
+								"pada tanggal: " . $rpcTanggal . " <br />" .
+								"waktu : " . $rpcWaktu . " <br/><br />" .
+								"Anda cukup menunjukan email ini serta foto kopi kartu identitas Anda kepada petugas untuk mendapatkan Race Pack anda" . 
+								"<br /><br /><br />".
+								"Regards " .
+								"<br /><br /><br /><br />" .
+								"Teh Javana Candi ke Candi 10K Committee" ;
+}
+?>
