@@ -1,0 +1,23 @@
+/* your styles go here */
+
+.red {
+  background: rgb(0,0,0);
+}
+
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instrumen_sub_list_rekap {
+	font-size: 0.7em;
+}
+
+.verification-status-unverified {
+	color: red;
+}
